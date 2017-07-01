@@ -1,10 +1,11 @@
 //Request parameter is an object that contains all of the details of the http request, any route parameters
 //Responde object exposes many methods for handling the responde from the server, how the data is send to the client
 
+var core = require('./controllers/core');
+
 module.exports = function (app) {
-    app.get('/', function (req, res) {
-        res.send('This is the homepage');
-    });
+    app.get('/', core.home);
+    
     app.get('/top', function (req, res) {
         res.send('This is the top page');
     });
