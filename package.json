@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MarioAGR/GetStartedWithNodeJS/issues"
   },
-  "homepage": "https://github.com/MarioAGR/GetStartedWithNodeJS#readme"
+  "homepage": "https://github.com/MarioAGR/GetStartedWithNodeJS#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
